@@ -14,8 +14,12 @@ public class StringPlayGround {
         int int1 = 5;
         double double1 = 2.4d;
         String c1 = String.format("haha %s what %s the number %d, %.2f", str1, str2, int1, double1);
-        System.out.println(c1);
-
+//        System.out.println(c1);
+        String myString = """
+            ni hao your name {%s} is 
+            beautiful!
+        """;
+        System.out.println(myString.formatted("Jiyu"));
     }
 
     private static void playStringBuilder() {
